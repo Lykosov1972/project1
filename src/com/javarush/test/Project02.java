@@ -16,6 +16,7 @@ public class Project02 {
     }
     public static void main(String[] args) {
         System.out.println("***THE REGISTRATION OF THE COURSES OF THE MASSAGE***");
+        System.out.println();
         Scanner scanner = new Scanner(System.in);
         boolean loopAgain = true;
         do {

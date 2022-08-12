@@ -10,5 +10,7 @@ public class Computer {
     public static void main(String[] args) {
         ZoneId zone = ZoneId.of("Africa/Cairo");
         System.out.println(zone);
+        ZonedDateTime zonedDateTime = ZonedDateTime.now(zone);
+        System.out.println(zonedDateTime);
     }
 }

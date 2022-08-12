@@ -12,5 +12,6 @@ public class Computer {
         System.out.println(zone);
         ZonedDateTime zonedDateTime = ZonedDateTime.now(zone);
         System.out.println(zonedDateTime);
+        System.out.println();
     }
 }
